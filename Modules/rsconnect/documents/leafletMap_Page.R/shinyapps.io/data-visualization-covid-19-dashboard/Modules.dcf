@@ -1,0 +1,12 @@
+name: Modules
+title: Modules
+username: data-visualization-covid-19-dashboard
+account: data-visualization-covid-19-dashboard
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11963203
+bundleId: 8592412
+url: https://data-visualization-covid-19-dashboard.shinyapps.io/Modules/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
