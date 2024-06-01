@@ -53,10 +53,8 @@ server_leafMap_Page <- function(input, output, session, data) {
 ui <- fluidPage(
   ui_leafMap_Page("f_1")
 )
-
 server <- function(input, output) {
   data <- DataDownload()
   callModule(server_leafMap_Page, "f_1", data)
 }
-
 shinyApp(ui, server)
