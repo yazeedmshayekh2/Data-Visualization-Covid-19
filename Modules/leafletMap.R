@@ -76,9 +76,7 @@ server_leafMap <- function(input, output, session, data, var2show = "case") {
           )
         )
       ), position = "topleft") %>%
-      addMarkers(lng = 55.0163, lat = 36.4062, label = "Shahrood University of Technology", labelOptions = labelOptions(textsize = "15px")) %>%
-      addMarkers(lng = 58.7911, lat = 36.2549, label = "University of Neyshabur", labelOptions = labelOptions(textsize = "15px")) %>%
-      addMarkers(lng = 28.231437, lat = -25.754056, label = "University of Pretoria", labelOptions = labelOptions(textsize = "15px")) %>%
+      addMarkers(lng = 35.86704941473343, lat = , 32.017903872138675, label = "University Of Jordan", labelOptions = labelOptions(textsize = "15px")) %>%
       setView(lng = 0, lat = 0, zoom = 2)
   })
 
